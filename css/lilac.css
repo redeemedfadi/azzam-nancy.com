@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "lilac";
+  src:url("../fonts/lilac.eot");
+  src:url("../fonts/lilac.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/lilac.woff") format("woff"),
+    url("../fonts/lilac.ttf") format("truetype"),
+    url("../fonts/lilac.svg#lilac") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "lilac" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "lilac" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-left:before {
+  content: "a";
+}
+.icon-arrow-right:before {
+  content: "b";
+}
+.icon-leaves-left:before {
+  content: "c";
+}
+.icon-leaves-right:before {
+  content: "d";
+}
+.icon-ribbon-left-1:before {
+  content: "e";
+}
+.icon-ribbon-left2:before {
+  content: "g";
+}
+.icon-ribbon-right2:before {
+  content: "h";
+}
+.icon-ribbon-rigth:before {
+  content: "f";
+}
