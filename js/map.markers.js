@@ -1,6 +1,13 @@
 //List of map markers
 var map_markers = [
 	{
+		title: "Venice",
+		latitude: 45.436356,
+		longitude: 12.3280503,
+		icon: "fa-glass",
+		infoWindow: "Venice"
+	},
+	{
 		"title": "Reception",
 		"latitude":33.775664,
 		"longitude":-118.065090,
