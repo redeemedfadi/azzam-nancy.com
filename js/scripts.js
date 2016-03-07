@@ -905,7 +905,7 @@ var Lilac;
 
                         $.ajax({
                             type: 'POST',
-                            url: 'contact.php',
+                            url: 'http://azzam.74.207.235.55.xip.io',
                             data: html,
                             success: function (msg) {
                                 stopSpin();
