@@ -418,8 +418,8 @@ var Lilac;
                             featureType: "water",
                             elementType: "geometry",
                             stylers: [
-                                {saturation: -50},
-                                {lightness: 40}
+                                {saturation: 0},
+                                {lightness: 0}
                             ]
                         },
                         {
@@ -460,6 +460,7 @@ var Lilac;
                             featureType: "transit",
                             elementType: "geometry",
                             stylers: [
+                                {visibility: 'off'},
                                 {hue: map_color},
                                 {saturation: 30},
                                 {lightness: -30}
