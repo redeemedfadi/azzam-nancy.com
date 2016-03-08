@@ -100,12 +100,12 @@ var Lilac;
                 /**
                  * Get latest tweets
                  */
-                $tis.getLatestTweets();
+                // $tis.getLatestTweets();
 
                 /**
                  * Get Instagram feed
                  */
-                $tis.getInstagram();
+                // $tis.getInstagram();
 
                 /**
                  * Create PrettyPhoto links
@@ -150,7 +150,7 @@ var Lilac;
                 /**
                  * Resize embed videos
                  */
-                $tis.resizeVideos();
+                // $tis.resizeVideos();
 
                 /**
                  * Contact form submit
