@@ -8,7 +8,7 @@ $(function($){
 		// Components							
 		slide_links			:	'false',
 		slides 				:  	[			// Slideshow Images
-										{image : 'images/IMG_1556.jpg'},
+										{image : 'photos/IMG_1556.jpg'},
 										// {image : 'http://placehold.it/1920x1080'},  
 										// {image : 'http://placehold.it/1920x1080'}
 								]
