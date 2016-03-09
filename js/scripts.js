@@ -60,8 +60,9 @@ var Lilac;
                 /**
                  * Preloader
                  */
-                $tis.preloader();
-
+                // $tis.preloader();
+                $('#preloader').fadeOut(500);
+                
                 /**
                  * Navigation
                  */
